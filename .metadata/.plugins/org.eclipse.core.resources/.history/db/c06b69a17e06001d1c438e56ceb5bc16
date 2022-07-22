@@ -1,0 +1,12 @@
+package com.string;
+
+public class StringMethods {
+	public static void main(String[] args) {
+		// Contain - method
+		//split
+		// subString 
+		//isEmpty
+		//ASCII
+		//compareTo
+	}
+}

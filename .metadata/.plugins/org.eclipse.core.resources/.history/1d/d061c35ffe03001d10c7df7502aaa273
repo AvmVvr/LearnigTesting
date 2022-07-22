@@ -1,0 +1,32 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class group {
+
+	@Test
+	private void browserLaunch() {
+		System.out.println("Browser Launched");
+	}
+
+	@Test 
+	private void websiteLaunch() {
+		System.out.println("Website Launched");
+	}
+
+	@Test
+	private void loginpage() {
+		System.out.println("login page Displayed");
+	}
+	
+	@Test
+	private void logindetail() {
+		System.out.println("login detail entered in their fields");
+	}
+	
+	@Test
+	private void mobileSearch() {
+		System.out.println("Serach Result Displayed - Mobile");
+
+	}
+}

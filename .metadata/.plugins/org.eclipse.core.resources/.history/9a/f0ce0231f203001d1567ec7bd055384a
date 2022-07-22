@@ -1,0 +1,11 @@
+package com.inheritance;
+
+public class MultipleInheritance implents Parent1 {
+	public static void main(String[] args) {
+		Parent2 p2 = new Parent2();
+		MultipleInheritance mi = new MultipleInheritance();
+		p2.sub();
+		mi.add();
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.string;
+
+public class StringDemo {
+	public static void main(String[] args) {
+		String str1 = "Java";
+		
+		System.out.println(str1);
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+Polymorphism: 
+
+poly -- > Many
+morpism --> Form
+
+One task can be complete in many ways
+
+Two Types:
+Method overloading (Compiletime polymorphism/Static Binding)
+Method overriding (Runtime Polymorphism/Dynamic Binding)
+
+Method overloading:
+--> In a class, methods name will be same, parameters and arguments will be differ 
+based on
+	data type 
+	data type count
+	data type order
+
+Method overriding (Runtime Polymorphism/Dynamic Binding)
+
+we have two different class, methods name and parameters name will be same
+
+Type Casting:
+Upcasting: Assiging child class into parent class
+Downcasting: Assigning parent class into the child class, which is not possible in java

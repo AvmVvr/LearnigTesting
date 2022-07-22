@@ -1,0 +1,16 @@
+package com.keyword;
+
+public class ChildClass extends ParentClass {
+int a = 50;
+
+public void methodd() {
+	int a = 25;
+	System.out.println(a);
+	System.out.println(this.a);
+	System.out.println(super.a);
+}
+public static void main(String[] args) {
+	ChildClass cc = new ChildClass();
+	cc.methodd();
+}
+}

@@ -1,0 +1,15 @@
+package javademo;
+public class Greens
+{
+public static void mock
+//public void mock()
+{
+System.out.println ("Hello World");
+}
+public static void main (string args[]);
+mock m = new mock;
+//public static void main(String args[]){
+//Greens g = new Greens();
+//g.mock();
+}
+}

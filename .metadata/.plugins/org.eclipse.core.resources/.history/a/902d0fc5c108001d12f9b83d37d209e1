@@ -1,0 +1,19 @@
+package com.keywords;
+
+public class FinalKeyWord {
+	
+ int a =5;
+ static int b = 10;
+ int c = 200;
+ 
+ public void method() {
+	 int c = 20;
+
+}
+
+ public static void main(String[] args) {
+	 FinalKeyWord fkw = new FinalKeyWord();
+	 fkw.method();
+	 
+}
+}

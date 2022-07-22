@@ -1,0 +1,49 @@
+package com.string;
+
+public class StringMutableImmutable {
+
+	public static void main(String[] args) {
+		
+		String s1 = "Java";
+		String s2 = "Programming";
+		String s3 = "Java";
+		
+		System.out.println("---------------------");
+		
+		int s1IHC = System.identityHashCode(s1);
+		int s2IHC = System.identityHashCode(s2);
+		int s3IHC = System.identityHashCode(s3);
+		
+		System.out.println(s1IHC);
+		System.out.println(s2IHC);
+		System.out.println(s3IHC);
+		
+		String concat = s1.concat(s2);
+		System.out.println(concat);
+		System.out.println(System.identityHashCode(concat));
+		
+		
+		System.out.println("---------mutable String (Cant use like this)----------------");
+		
+		String s4 = new String("Testing");
+		String s5 = new String("Testing");
+		int s4IHC = System.identityHashCode(s4);
+		int s5IHC = System.identityHashCode(s5);
+		System.out.println(s4IHC);
+		System.out.println(s5IHC);
+		
+		System.out.println("---------mutable (String Buffer)---------------");
+		
+		StringBuffer s6 = new StringBuffer("Testing");
+		StringBuffer s7 = new StringBuffer("Testing");
+	
+		int s6IHC = System.identityHashCode(s6);
+		int s7IHC = System.identityHashCode(s7);
+		System.out.println(s6IHC);
+		System.out.println(s7IHC);
+		
+		
+//		StringBuilder s6 = new StringBuilder("Testing");
+
+	}
+}

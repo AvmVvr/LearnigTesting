@@ -1,0 +1,17 @@
+package com.abstraction;
+
+public class DemoAbstract extends Abs_Claz{
+
+	@Override
+	public void sub() {
+		System.out.println("This is Subtraction");
+	}
+
+	public void mul() {
+		System.out.println("This is Multiplication");	
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

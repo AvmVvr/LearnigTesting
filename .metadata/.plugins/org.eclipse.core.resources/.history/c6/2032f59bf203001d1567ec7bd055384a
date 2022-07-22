@@ -1,0 +1,12 @@
+package com.inheritance;
+
+public abstract class Parent1 {
+	public void add() {
+		System.out.println("Addition");
+	}
+	public void div() {
+	System.out.println("Division");
+
+	}
+
+}

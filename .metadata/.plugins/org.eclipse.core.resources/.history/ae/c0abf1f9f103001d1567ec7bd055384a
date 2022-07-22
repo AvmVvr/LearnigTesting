@@ -1,0 +1,8 @@
+package com.inheritance;
+
+public class MultipleInheritance extends Parent1 {
+	public static void main(String[] args) {
+		Parent2 p2 = new Parent2();
+	}
+
+}

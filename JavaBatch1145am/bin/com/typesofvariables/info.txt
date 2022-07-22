@@ -1,0 +1,38 @@
+Variable: 
+	a tiny unit of memory which stores the value/data.
+	
+	
+Types of Variables
+
+	1. Local Variable
+	2. class Variable
+	3. static variable
+	
+	
+	1. local Variable: (Method Variable)
+		lv is declared inside the method
+		local variable must be assigned.
+		life of the LV is inside the specific method only 
+		by creating object 
+		
+	2. class Variable
+		CV is declared inside the class but outside the methods.
+		class variable no need to be assigned.
+		life of the CV is entire class 
+		by creating object 
+	
+
+3. static variable
+
+	1. static variable is similar to class variable. 
+	but you have to use static keyword in front the variable declaration.
+	2. we can access the static variable without object 
+	
+	
+	
+	
+	
+	
+	
+	 
+	

@@ -1,0 +1,47 @@
+package com.TestNG;
+
+import java.util.List;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class ParameterizedTest {
+	@Parameters({"a","b"})
+	@Test
+	private void add(int a,int b) {
+		int c =a+b;
+		System.out.println(c);
+	}
+
+	
+	@Test(dataProvider = "subdata")
+	private void sub(int c,int d) {
+		int e =c+d;
+		System.out.println(e);
+	}
+	
+	@DataProvider(name = "subdata")
+	private Object subData() {
+
+	Object a[][] = {{10,8},{12,6},{14,7}};
+		return a;
+
+	}
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	@Test
+	private void logOut() {
+		// TODO Auto-generated method stub
+		System.out.println("User SignOut");
+	}
+
+}

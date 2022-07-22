@@ -1,0 +1,11 @@
+package com.array;
+
+public class Arrayy {
+	public static void main(String[] args) {
+		//array Declare and Assigning the size of array(fixed)
+		//similar datatype
+		int[] arr = new int[5];//indexbased (0-4)
+		
+	}
+
+}

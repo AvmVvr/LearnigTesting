@@ -1,0 +1,32 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class group {
+@Test
+private void mensfootwear() {
+	// TODO Auto-generated method stub
+System.out.println("footwear shown in result");
+}
+
+@Test
+private void mensdress() {
+	// TODO Auto-generated method stub
+System.out.println("Shrits and trousers shown in result");
+}
+
+@Test
+
+private void mens() {
+	// TODO Auto-generated method stub
+
+}
+
+@Test
+private void smartphone() {
+	// TODO Auto-generated method stub
+
+}
+
+
+}

@@ -1,0 +1,122 @@
+Collection:
+
+Why we  going for collection:
+
+1. Supports Dissimilar Data type
+2. Dynamic Memory Allocation	
+3. No Memory Wastage like array
+	
+Collection 3 types:
+
+1.List
+2.Set
+3.Map
+
+
+ 1. List (Interface)
+ 	ArrayList (Class)
+ 		Insertion Order
+ 		It allows Duplicate Values
+ 		Index Based
+ 		null
+ 	LinkedArrayList (Class)
+ 	Vector (Class)
+ 
+ 2. Set
+ 
+ 	HashSet
+ 		Random Order
+ 		It doesn't allow the duplicate Values
+ 		it is value based
+ 		It allows only one null Value.
+ 
+ 	LinkedHashSet
+ 		Insert order
+ 		It doesn't allow the duplicate Values
+ 		It allows only one null Value.
+ 		
+ 	TreeSet
+ 		Ascending Order
+ 		Doesnt allow null values
+ 		duplicate also not allowed
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 3. Map
+ 	it is a key Value Pair
+ 	(Key:Value)---> Entry
+ 	key ---> doesn't allows duplicates
+ 	Value --> allows Duplicates
+ 	
+ 	HashMap
+ 	LinkedHashMap
+ 	TreeMap
+ 	
+ 	HashTable
+ 	Concurrent HashTable
+ 	
+ 	
+ 	
+ 	Generics: 
+ 	<WrapperClass> ---> <Integer>
+	int --> data type
+	Integer ---> Wrapper Class
+	 	
+ 	List li = new List();
+ 	
+ 	List<Integer> li = new ArrayList<Integer>();
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	123
+ 	132
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	1,2,3,5,4 ---> insertion
+ 	5,4,3,2,1---> descending
+ 	1,2,3,4,5-----> Ascending
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	Class & Class ---> extends
+ 	Abstract Class & Class ---> extends
+ 	Interface & Class ---> implements
+ 	class & Interface ---> implements
+ 	Interface & Interface---> extends
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	

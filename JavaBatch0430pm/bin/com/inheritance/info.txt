@@ -1,0 +1,24 @@
+
+
+Inheritance
+	Relationship b/w parent class and child class
+	
+	One class property is accessed by another class using keyword "extends"
+	
+	property ---> method
+	
+	Types of inheritance:
+	1. Single
+	2. Multiple
+	3. Multi level inheritance
+	4. Hierarchical Inheritance
+	5. Hybird inheritance
+	
+	
+	1. Single Inheritance:
+	 one parent class property is accessed by a child class.
+	 
+	 parent----extends---->child
+	(method -add)				(add())
+	
+	

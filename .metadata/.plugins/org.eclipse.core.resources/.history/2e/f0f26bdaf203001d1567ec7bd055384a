@@ -1,0 +1,16 @@
+package com.inheritance;
+
+public class MultipleInheritance implements Parent2 {
+	@Override
+	public void sub() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void mul() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

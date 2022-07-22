@@ -1,0 +1,71 @@
+QUESTION 1
+----------
+URL : https://www.facebook.com/
+
+NOTE: Enter Email or Phone and Password.
+
+QUESTION 2
+----------
+URL : https://www.redbus.in/
+
+NOTE: NOTE: Enter from and to textbox.
+
+QUESTION 3
+----------
+URL : URL : https://www.google.com/
+
+NOTE: Enter GreensTechnology.
+
+QUESTION 4
+----------
+URL : https://www.lvbankonline.in/lvbretail/RetailLogin.html
+
+NOTE: Enter username and password.
+
+QUESTION 5
+----------
+URL : https://infinity.icicibank.com/corp/Login.jsp
+
+NOTE: Enter username and password.
+
+QUESTION 6
+----------
+URL : https://twitter.com/login
+
+NOTE: Enter username and password.
+
+QUESTION 7
+----------
+URL : https://netbanking.hdfcbank.com/
+
+NOTE: Enter custom id .
+
+QUESTION 8
+----------
+URL: https://www.swiggy.com
+
+NOTE: Enter the location.
+
+QUESTION 9
+----------
+URL :https://www.snapdeal.com/login
+
+NOTE: Enter mobile number/email.
+
+QUESTION 10
+-----------
+URL : https://www.instagram.com/accounts/login/?hl=en) login page
+
+NOTE: Enter username and password.
+
+QUESTION 11
+-----------
+URL: https://www.irctc.co.in/
+
+NOTE: Just enter the values for the textbox only.
+
+QUESTION 12
+-----------
+URL: www.adactin.com/HotelApp/
+
+NOTE: Enter Email or Phone and Password.

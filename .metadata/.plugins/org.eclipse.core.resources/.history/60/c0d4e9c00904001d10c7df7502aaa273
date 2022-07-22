@@ -1,0 +1,25 @@
+package com.string;
+
+public class StringDemo {
+	public static void main(String[] args) {
+		String str1 = "Java"; //4--->index (0-3)
+		String str2 = "Programming"; //(0-10)
+		//print the String
+		System.out.println(str1);
+		System.out.println("Vinoth");
+		
+		//String Length
+		System.out.println("-----String Length-------");
+		System.out.println(str1.length());
+		int s2l = str2.length();
+		System.out.println(s2l);
+		
+		//String
+		System.out.println("-----String charAt-------");
+		System.out.println(str2.charAt(0));	
+		char charAt = str2.charAt(5);
+		System.out.println(charAt);
+		
+	}
+
+}

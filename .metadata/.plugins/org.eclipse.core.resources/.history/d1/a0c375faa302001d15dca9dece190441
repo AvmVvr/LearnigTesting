@@ -1,0 +1,26 @@
+package com.controlstatement;
+
+public class NestedIfstatement {
+	public static void main(String[] args) {
+		int a ;
+		int b;
+		int c;
+		
+		/**
+		 * a<b 
+		 * 		c<b ---> b is big
+		 * 				 c is big
+		 * 
+		 * 
+		 * c<a ----> a is big
+		 * 			 c is big
+		 * 
+		 * 
+		 * 
+		 */
+		
+		
+		
+	}
+
+}

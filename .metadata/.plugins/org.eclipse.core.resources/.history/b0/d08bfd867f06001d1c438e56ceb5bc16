@@ -1,0 +1,31 @@
+package com.string;
+
+public class StringMethods {
+	public static void main(String[] args) {
+		
+		String Sentence = "This is Java Programming & Testing Course";
+		String Name = "Selenium Automation";
+		
+		// Contain - method
+		boolean contains = Sentence.contains("ava");
+		System.out.println(contains); // true
+		boolean contains2 = Sentence.contains("zebra");
+		System.out.println(contains2);//false
+		
+		//StartsWith & Endswith
+		boolean startsWith1 = Name.startsWith("sel");
+		System.out.println(startsWith1);//false
+		boolean startsWith2 = Name.startsWith("S");
+		System.out.println(startsWith2);//True
+		boolean endsWith1 = Sentence.endsWith("ourse");
+		System.out.println(endsWith1);//true
+		boolean endsWith2 = Sentence.endsWith("z");
+		System.out.println(endsWith2);//false
+		
+		//split
+		// subString 
+		//isEmpty
+		//ASCII
+		//compareTo
+	}
+}

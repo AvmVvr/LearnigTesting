@@ -1,0 +1,13 @@
+Scanner --> class
+
+Gets input from the user. 
+
+Syntax: 
+
+	Scanner sc = new Scanner(System.in);
+	
+	Where
+	Scanner --> Class
+	sc---> obj name
+	System --> Class
+	in---> inputStream (System)

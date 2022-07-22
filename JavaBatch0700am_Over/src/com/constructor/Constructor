@@ -1,0 +1,15 @@
+
+Constructor:
+ 	Class name and method name both are same.--> Constructor
+ 	There is no return type (void)
+ 	every Constructor has separate object name
+ 	it has two types
+ 	1. Default Parameterized  / Non - Parameterized 
+ 	2. Parameterized   
+ 	
+ 	
+ 	Task :
+ 	 greens-- 3 constructor
+ 	 1. non Param
+ 	 2. name,branch,mobile
+ 	 

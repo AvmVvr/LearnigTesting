@@ -1,0 +1,22 @@
+package com.facebook.helper;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.pageobjectmodel.AH_LoginPOM;
+
+public class PageObjectManager {
+	public static WebDriver driver;
+	private AH_LoginPOM ahl;
+
+	public PageObjectManager(WebDriver driver2) {
+		this.driver = driver2;
+		PageFactory.initElements(driver2, this);
+	}
+
+	public AH_LoginPOM getFlp() {
+		ahl = new AH_LoginPOM(driver);
+		return ahl;
+	}
+
+}

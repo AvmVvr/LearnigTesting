@@ -1,0 +1,16 @@
+Keywords
+   Static, Final, Finally(Exception), This, Super,Finalize(Garbage Collection)
+   
+   
+   Static Keyword
+   		Static Variable
+   		static method
+   		static BLock
+   		* No need to create the object.
+   
+   
+   Final Keyword
+		Final Variable
+   		Final method
+   		
+   		*need to create the object

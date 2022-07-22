@@ -1,0 +1,78 @@
+Exception
+	Exception is like a error, the program will terminated that line itself.
+	
+	Unchecked (Runtime Exception)
+		1.Arithmetic Exception
+		2.NullpointException
+		3.InputMismatchException
+		4.Array Index Out of bound Exception
+		5.Index out of boundException
+		6.String INdex out of Bound Exception
+		7.NumberFormatException
+		
+	Checked(Complie Time Exception)
+		IOException
+		SQLException
+		FileNotFoundException
+		ClassNotFoundException
+		
+Exception Handling
+	1. Try
+	2. Catch
+	3. Finally
+	4. Throw
+	5. Throws
+	
+	Errors:
+	1.N/w error
+	2.JVM crack
+	3.out of memory
+	4.Stack Overflow
+	
+	
+	try{ // outer try
+				try{ // inner try
+				}
+			catch(exception e)
+			{
+			syso("");
+			}
+			Finally{
+			syso("");
+			}
+
+	}
+	catch(exception e)
+	{
+	syso("");
+	}
+	Finally{
+	syso("");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

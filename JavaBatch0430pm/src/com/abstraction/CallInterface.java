@@ -1,0 +1,28 @@
+package com.abstraction;
+
+public class CallInterface implements full_Abs{
+
+	@Override
+	public void sum() {
+		System.out.println("Addition");
+	}
+	@Override
+	public void div() {
+		System.out.println("Division");
+	}
+	@Override
+	public void floor() {
+		System.out.println("Floor Value");
+	}
+	@Override
+	public void ceil() {
+		System.out.println("Ceil Value");
+	}
+	public static void main(String[] args) {
+		CallInterface ci = new CallInterface();
+		ci.ceil();
+		ci.floor();
+		ci.div();
+		ci.sum();
+	}
+}

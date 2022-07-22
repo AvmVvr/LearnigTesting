@@ -1,0 +1,24 @@
+package com.array;
+
+public class ArrayOneDim {
+	public static void main(String[] args) {
+		int[] arr1 = {10,20,30,40,50};
+		
+		int [] arr2 = new int[5];
+		
+		arr2[0] = 100;
+		arr2[1] = 200;
+		arr2[2] = 300;
+		arr2[3] = 400;
+		arr2[4] = 500;
+		
+		//length
+		int lengtharr1 = arr1.length;
+		int lengtharr2 = arr2.length;
+		System.out.println(lengtharr1);
+		System.out.println(lengtharr2);
+		//clone
+		//print - for loop & for each
+
+	}
+}

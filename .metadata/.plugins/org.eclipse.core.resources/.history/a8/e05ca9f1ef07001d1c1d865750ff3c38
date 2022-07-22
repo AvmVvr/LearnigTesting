@@ -1,0 +1,18 @@
+package com.TestNG;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class Failretry implements IRetryAnalyzer {
+
+	@Override
+	public boolean retry(ITestResult result) {
+		int count = 1;
+		if(count<=3)
+			return true;
+		count++;
+		
+		return false;
+	}
+
+}

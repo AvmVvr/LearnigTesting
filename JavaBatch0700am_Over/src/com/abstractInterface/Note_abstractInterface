@@ -1,0 +1,21 @@
+
+Abstraction :
+
+	Hiding the implementation part (Methods)
+	
+	Two Types: 
+	
+		1. Partial Abstraction: Abstract Class
+		2. Fully Abstraction: Interface
+		
+		
+1. Partial Abstraction:
+		implemented methods and umimplemented method/methods(Mand.)
+		Cant Create an Object
+		Keyword "extends"
+		
+2. Fully Abstraction: INterface
+		All methods must be unimplemented
+		cant Create the object
+		Keyword "Implements"
+ 

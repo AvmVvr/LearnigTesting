@@ -1,0 +1,17 @@
+package com.TestNG;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+@Test
+public class CrossBrowser {
+	private void setUp() {
+		System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		System.out.println("Browser launched sucessfully");
+		driver.get("https://www.facebook.com");
+		System.out.println("Webpage Launched sucessfully");
+	}
+
+}

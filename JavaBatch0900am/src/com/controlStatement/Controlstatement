@@ -1,0 +1,182 @@
+Control Statement 
+---> It controls the program flow
+
+Three types of Control Statements:
+Loop Statement
+	for,while, do while
+Decision Statement 
+	if .. else , switch case
+Jump statement
+	break, continue
+	
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+
+
+i=i+1
+i++ --->increment
+
+for(int i= 1;i<=9;i++)
+{
+syso("Round "+i)
+}
+i++/i--
+
+for(init;condt;decrement)
+
+5
+4
+3
+2
+1
+
+for(i=5;i>=1;i--)
+
+
+i=5;5>=1;i--
+
+
+
+for 
+nested for
+
+
+mxn
+3*2
+(i,j)
+1(1,1) 2(1,2) 
+3(2,1) 4(2,2)
+5(3,1) 6(3,2)
+
+for(int i=1;i<=3;i++)
+{
+for(int j=1;j<=2;j++)
+System.out.print(i)
+}
+System.out.println()
+
+
+1 1 1 1
+2 2 2 2
+3 3 3 3 
+
+
+
+
+
+While loop -- Entry level condt. check
+
+Do while loop ----> Exit level condt. check
+
+
+Decision Statement
+
+if (Cond)
+{
+true statement;
+}
+
+
+if-else statement
+
+if (condt.){
+true stmt;
+}
+else{
+false stmt;
+}
+
+if...else if .....else if....else....
+
+if
+
+
+
+
+a 
+b
+c
+d
+
+
+if(a<b){
+	if (a<c)
+		a<d a is small / d is small
+	(c<d) c is small / d is small
+	}
+else if (b<c) 
+	{
+	if(b<d) {b is small / d is small}
+	else (c<d) c is small / d is small 			
+}
+
+num-->%2---> reminder 0 --> even
+				reminder 1 --> Odd
+
+15/2-15
+16
+16
+0
+a=15
+b=
+
+a/b = 3
+a+b = 10
+ a-b = 0
+ a *b = 25
+ a%b = 1
+   
+ && and (cond1 && cond2)
+ || OR  (cond1 || Cond2)
+
+
+
+
+
+
+a = 0;
+b = 5;
+
+
+if (a<b){
+	syso("a is small");
+	}
+else if(a==b){
+syso("a is equal to b");
+}
+else if(a==0){
+syso("a is zero");
+}
+else{
+syso("b is small")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

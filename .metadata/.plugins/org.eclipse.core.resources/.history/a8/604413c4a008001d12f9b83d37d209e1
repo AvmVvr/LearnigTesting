@@ -1,0 +1,21 @@
+package com.facebook.helper;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import com.pageelement.AdactinHotelLoginPOM;
+
+public class PageObjectManager {
+	public static WebDriver driver;
+	private AdactinHotelLoginPOM ahl;
+
+	public PageObjectManager(WebDriver driver2) {
+		this.driver = driver2;
+		PageFactory.initElements(driver2, this);
+	}
+
+	public AdactinHotelLoginPOM getFlp() {
+		ahl = new AdactinHotelLoginPOM(driver);
+		return ahl;
+	}
+
+}

@@ -1,0 +1,43 @@
+package com.string;
+
+public class StringMutableImmutable {
+
+	public static void main(String[] args) {
+		
+		String s1 = "Java";
+		String s2 = "Programming";
+		String s3 = "Java";
+		
+//		hashcode
+		
+		int s1HC = s1.hashCode();
+		int s2HC = s2.hashCode();
+		int s3HC = s3.hashCode();
+		
+		System.out.println(s1HC);
+		System.out.println(s2HC);
+		System.out.println(s3HC);
+		
+		
+		int s1IHC = System.identityHashCode(s1);
+		int s2IHC = System.identityHashCode(s2);
+		int s3IHC = System.identityHashCode(s3);
+		
+		System.out.println(s1IHC);
+		System.out.println(s2IHC);
+		System.out.println(s3IHC);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		String s4 = new String("Testing");
+		StringBuffer s5 = new StringBuffer("Testing");
+		StringBuilder s6 = new StringBuilder("Testing");
+
+	}
+}

@@ -1,0 +1,15 @@
+package com.exception;
+
+import java.io.IOException;
+
+//Java program that demonstrates the use of throw
+public class Test
+{
+	public static void main(String[] args) throws IOException
+	{
+		System.out.println(10/0);
+		throw new IOException();
+		
+	}
+}
+

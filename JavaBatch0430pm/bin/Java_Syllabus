@@ -1,0 +1,37 @@
+Java Topics
+1. Java   
+2. Features   
+3. Architecture   
+4. Coding standards   
+5. Data types   
+6. Access specifier - public, private, protected, default
+7. Garbage collection
+8. OOPS
+     a. Encapsulation   - Binding the code and Data together as a Single Entity. 
+     b. Inheritance - single,multilevel,hierarchical,multiple,hybrid (combine--> single+multiple)
+     c. Polymorphism   - method overloading/method overriding
+     d. Abstraction - Hiding the implementation part
+     
+9. Constructor  
+10.Scanner Class
+11.Control statement
+   For, while, do-while
+   Pre, post increment,
+   Type Casting
+12. Selection statement
+   If- else, switch
+13.Jumping statement
+   Break, Continue, Return
+14. Types of Variables
+15. Keywords
+   Static, Final, Finally (Exception), This, Super,Finalize
+    -------------------------------------------
+16. Array
+17. String
+ Methods, Literal, Non literal, Immutable,Mutable
+ String Buffer, String Builder
+ 18.Abstraction
+19. Collection
+    List, set, Map
+20. Exception
+    Exception Handling

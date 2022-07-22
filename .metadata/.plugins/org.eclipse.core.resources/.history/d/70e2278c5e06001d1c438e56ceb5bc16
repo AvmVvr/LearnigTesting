@@ -1,0 +1,18 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class ParallelTest {
+
+	@Test
+	private void logIn() {
+		// TODO Auto-generated method stub
+		System.out.println("User Sign in");
+	}
+
+	@Test
+	private void logOut() {
+		// TODO Auto-generated method stub
+		System.out.println("User SignOut");
+	}
+}

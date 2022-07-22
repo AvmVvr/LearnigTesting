@@ -1,0 +1,44 @@
+package com.string;
+
+public class Stringg {
+	public static void main(String[] args) {
+		String s1 = "APPLE";
+		String s2 = "fig"; 
+		String s3 = "orange";
+
+		System.out.println("-----Print the String-----");
+		System.out.println(s1);
+		System.out.println("Raj");
+
+		System.out.println("-----Print the String Char-----");
+		char result1 = s1.charAt(0);
+		System.out.println(result1);// V
+
+		// String index out of bound
+//		char result2 = s1.charAt(9);
+//		System.out.println(result2);
+		System.out.println("-----------------------");
+//		compareTo
+		int result2 = s1.compareTo(s3);//65-97
+		System.out.println(result2);//-32
+		System.out.println("-----------------------");
+//		compareTo
+		int result3 = s1.compareToIgnoreCase(s3);//65-97
+		System.out.println(result3);//-32//0
+		System.out.println("-----------------------");
+//		concat
+		String result4 = s1.concat(s2);
+		System.out.println(result4);
+		System.out.println("-----------------------");
+		//upper-lower case
+		String upperCase = s2.toUpperCase();
+		String lowerCase = s1.toLowerCase();
+		System.out.println(upperCase);
+		System.out.println(lowerCase);
+		
+		
+		
+		
+
+	}
+}

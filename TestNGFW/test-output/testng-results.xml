@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T16:02:10 IST" name="Default suite" finished-at="2022-07-21T16:02:10 IST" duration-ms="201">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T16:02:10 IST" name="Default test" finished-at="2022-07-21T16:02:10 IST" duration-ms="201">
+      <class name="com.testng.SimpleAnno">
+        <test-method is-config="true" signature="WebbrowserLaunch()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="WebbrowserLaunch" finished-at="2022-07-21T16:02:10 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebbrowserLaunch -->
+        <test-method is-config="true" signature="loginPageRedirect()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="loginPageRedirect" finished-at="2022-07-21T16:02:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageRedirect -->
+        <test-method is-config="true" signature="logindetail()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="logindetail" finished-at="2022-07-21T16:02:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetail -->
+        <test-method is-config="true" signature="getTitleOfPage()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="getTitleOfPage" finished-at="2022-07-21T16:02:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleOfPage -->
+        <test-method signature="footWear()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="footWear" finished-at="2022-07-21T16:02:10 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footWear -->
+        <test-method is-config="true" signature="takeScreenShot()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="takeScreenShot" finished-at="2022-07-21T16:02:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="getTitleOfPage()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="getTitleOfPage" finished-at="2022-07-21T16:02:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleOfPage -->
+        <test-method signature="mobile()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="mobile" finished-at="2022-07-21T16:02:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+        <test-method is-config="true" signature="takeScreenShot()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="takeScreenShot" finished-at="2022-07-21T16:02:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="printWebPageURL()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="printWebPageURL" finished-at="2022-07-21T16:02:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printWebPageURL -->
+        <test-method is-config="true" signature="cookiesClear()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:10 IST" name="cookiesClear" finished-at="2022-07-21T16:02:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookiesClear -->
+        <test-method is-config="true" signature="browserExit()[pri:0, instance:com.testng.SimpleAnno@4c583ecf]" started-at="2022-07-21T16:02:11 IST" name="browserExit" finished-at="2022-07-21T16:02:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExit -->
+      </class> <!-- com.testng.SimpleAnno -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

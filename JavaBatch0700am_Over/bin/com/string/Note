@@ -1,0 +1,24 @@
+
+String -->	Sequence of character
+		--> Non Primitive Data type
+	represent ---> double quote
+Ex. "Java"
+
+Literal String:
+	It’s stored inside the heap memory (string pool or string constant).
+	It will share the memory if same value (duplicate value)
+
+Non-literal string:
+	Its stored in the heap memory.
+	Its create a new memory every time even if its duplicate value(same value)
+	
+Immutable string:
+We can store more duplicate value in same memory
+We can't change the value in memory
+using concat method , it’s have to create new memory
+
+Mutable string:
+we can't store duplicate value in same memory
+we can change the value in memory
+Using append , its takes same memory
+	

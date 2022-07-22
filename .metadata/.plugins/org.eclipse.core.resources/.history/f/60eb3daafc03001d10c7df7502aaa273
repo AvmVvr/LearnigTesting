@@ -1,0 +1,17 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class group {
+
+	@Test
+	private void mobilePhones() {
+		System.out.println("mobiles displayed");
+	}
+
+	@Test
+	private void smartWatch() {
+		System.out.println("smart watches displayed");
+	}
+
+}

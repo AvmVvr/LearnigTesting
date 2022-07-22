@@ -1,0 +1,15 @@
+package com.keywords;
+
+public class Demo extends FinalKeyWord{
+	
+	@Override
+	public void methodone() {
+		
+		super.method(); // Parent Class refer.
+	}
+	public static void main(String[] args) {
+		Demo d = new Demo();
+		d.methodone();
+	}
+
+}

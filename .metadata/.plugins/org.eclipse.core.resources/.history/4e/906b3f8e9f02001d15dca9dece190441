@@ -1,0 +1,11 @@
+package com.controlstatement;
+
+public class IfStatement {
+	public static void main(String[] args) {
+				
+		if (10<5) {
+			System.out.println("pass");	
+		}
+	}
+
+}

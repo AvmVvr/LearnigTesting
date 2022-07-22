@@ -1,0 +1,11 @@
+package com.array;
+
+public class TwoDimArray {
+
+	public static void main(String[] args) {
+		
+		int A2D[][] = new int[3][3];
+
+	}
+
+}

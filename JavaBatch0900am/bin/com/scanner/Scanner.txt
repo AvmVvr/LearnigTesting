@@ -1,0 +1,5 @@
+ Scanner ---> Class (Predefined Class)---> JRE (java.util.Scanner)
+ 
+ Use 
+ 		While Executing the program, User give input to the system(Code) 
+ 		and Process/Store the input and then produce the output

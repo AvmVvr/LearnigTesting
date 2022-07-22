@@ -1,0 +1,25 @@
+package com.controlstatement;
+
+public class NestedIfstatement {
+	public static void main(String[] args) {
+		float a = 300.0f;
+		float b = 150.0f;
+		int c = 350;
+		
+		float  d = a+b;
+		
+		if (a < b) {
+			if (c < b) {
+				System.out.println("b is big");
+			} else {
+				System.out.println("C is big");
+			}
+
+		} else if (c < a) {
+			System.out.println("a is big");
+		} else {
+			System.out.println("c is big");
+
+		}
+	}
+}

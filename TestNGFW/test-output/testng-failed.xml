@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testng.SimpleAnno">
+        <methods>
+          <include name="printWebPageURL"/>
+          <include name="mobile"/>
+          <include name="browserExit"/>
+          <include name="cookiesClear"/>
+          <include name="footWear"/>
+          <include name="takeScreenShot"/>
+          <include name="loginPageRedirect"/>
+          <include name="logindetail"/>
+          <include name="WebbrowserLaunch"/>
+          <include name="getTitleOfPage"/>
+        </methods>
+      </class> <!-- com.testng.SimpleAnno -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

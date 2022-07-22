@@ -1,0 +1,20 @@
+package com.keywords;
+
+public class FinalKeyWord extends StaticKeyWord{
+	int a = 15;
+	int c = 23;
+	// final Method
+	public static void main(String[] args) {
+		FinalKeyWord fkw = new FinalKeyWord();
+		// final Variable
+		final int b = 10;
+//		int a = 15;
+//		int c = b+23+a;
+		System.out.println(number);
+		System.out.println(a);
+		
+		//b= b+1
+		System.out.println(b+a);
+
+	}
+}

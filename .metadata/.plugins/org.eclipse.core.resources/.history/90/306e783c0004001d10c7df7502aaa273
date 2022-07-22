@@ -1,0 +1,37 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class group {
+
+	@Test(groups = "Mens")
+	private void mensShirt() {
+		System.out.println("mensShirt Displayed");
+	}
+
+	@Test (groups = "Mens")
+	private void shoes() {
+		System.out.println("Shoes Displayed");
+	}
+
+	@Test (groups = "Mens")
+	private void watch() {
+		System.out.println("Watch Results displayed");
+	}
+	
+	@Test(groups = "Electronics")
+	private void smartPhone() {
+		System.out.println("smartPhone Displayed");
+	}
+	
+	@Test (groups = "Electronics")
+	private void laptop() {
+		System.out.println("Serach Result Displayed - Laptop");
+	}
+	
+	@Test
+	private void tableWood() {
+		System.out.println("Serach Result Displayed - Wood Table");
+
+	}
+}

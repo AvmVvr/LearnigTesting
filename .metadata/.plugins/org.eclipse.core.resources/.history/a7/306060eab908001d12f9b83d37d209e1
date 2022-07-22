@@ -1,0 +1,23 @@
+package com.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+	
+	public static void main(String[] args) {
+		Map<String,Integer> hm = new HashMap<>();
+		
+		hm.put("Physics", 95);
+		hm.put("Chemistry", 92);
+		hm.put("Maths", 100);
+		hm.put("ComputerScience", 98);
+		
+		System.out.println(hm);
+		
+		
+		
+		
+	}
+
+}

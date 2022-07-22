@@ -1,0 +1,20 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class Timeout_Concepts {
+
+	@Test
+	private void logIn() {
+		System.out.println("User Sign in");
+	}
+
+	@Test(timeOut = 1000)
+	private void logOut() throws InterruptedException {
+		System.out.println("User SignOut");
+		System.out.println("User SignOut");
+		System.out.println("User SignOut");
+		System.out.println("User SignOut");
+		System.out.println("User SignOut");
+	}
+}

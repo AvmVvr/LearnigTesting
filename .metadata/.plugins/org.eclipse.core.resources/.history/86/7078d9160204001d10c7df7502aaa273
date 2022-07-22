@@ -1,0 +1,23 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class invocationCountt {
+
+	@Test
+	private void login() {
+		System.out.println("login successfull");
+	}
+
+	@Test 
+	private void purchase() {
+		System.out.println("Product added to the cart");
+	}
+
+	@Test 
+	private void payment() {
+		System.out.println("payment done via gpay");
+	}
+	
+	
+}

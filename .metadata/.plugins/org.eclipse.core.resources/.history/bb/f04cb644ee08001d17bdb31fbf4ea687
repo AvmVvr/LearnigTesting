@@ -1,0 +1,41 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class GropusDemo {
+		@Test(groups = "Electronics")
+		public void mobile() {
+			System.out.println("mobile test");
+		}
+
+		@Test(groups = "Electronics")
+		public void smartwatch() {
+			
+			System.out.println("smartwatch Tested");
+		}
+
+		@Test (groups = "Electronics")
+		public void laptop() {
+			
+			System.out.println("Laptop Tested");
+		}
+		
+		@Test
+		public void homeAppl() {
+			
+			System.out.println("HomeAppli Tested");
+		}
+		
+		
+		@Test
+		public void bag() {
+			
+			System.out.println("Bag Tested");
+		}
+		
+		@Test
+		public void Shoe() {
+			
+			System.out.println("Shoe Tested");
+		}
+	}

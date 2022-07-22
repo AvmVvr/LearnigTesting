@@ -1,0 +1,13 @@
+variable: 
+
+3 types
+ 1. Local Variable
+ 2. Global Variable
+ 3. Static Variable
+ 
+ 
+ 1. LOcal Variable:(LV)
+ 
+ 			1. it will declare and initialize inside the method 
+ 			2. LV must have a value
+ 			3. LV life inside the specific method

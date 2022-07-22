@@ -1,0 +1,16 @@
+Screenshot ? 
+
+screenshot package --> Selenium ?
+
+commons io --> apache
+
+https://commons.apache.org/proper/commons-io/download_io.cgi
+
+binaries --> zip download
+
+move the zip file into selenium folder --> extract
+
+
+eclipse--> project folder --> r/c --> bulid path--> configure build path
+-->libraries--->classpath--(select)--> add extrenal jar---> 
+Navigate to selenium folder ---> select the commons io jars--> apply and ok

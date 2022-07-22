@@ -1,0 +1,25 @@
+Variable :
+		It is a container that stores the value/groups of values
+	
+	types : 3 
+		1. Local Variable
+		2. Class Variable
+		3. Static Variable
+		
+	Local Variable: (LV)/(Method Variable)
+	 
+	 1. This variable will be assigned inside the method.
+	 2. Life of the Local Variable is inside the specific method only.
+	 3. LV must be assigned to the values.
+	 4. using Obj.reference we call the particular method
+	  
+	  Class Variable::(CV)
+	  1. we declare class variable inside the class but outside of the methods
+	  2.life of CV is entire class
+	  3.if variable(CV/LV) name same ---> LV holds the high priority
+	  4. need not to assign the value to the variable ; it has default values.
+	  5. using Obj.reference we call the particular method 
+	  
+	  Static Variable:(Global Variable)
+	  1. Same as class Variable but in prefix we add "static" keyword to that variable.
+	  2. without using Obj.reference we call the static variable.

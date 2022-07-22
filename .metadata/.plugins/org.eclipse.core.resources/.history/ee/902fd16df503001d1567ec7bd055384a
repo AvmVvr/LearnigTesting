@@ -1,0 +1,16 @@
+package com.exception;
+
+import java.io.IOException;
+
+//Java program that demonstrates the use of throw
+public class Test
+{
+	public static void main(String[] args) throws IOException, InterruptedException
+	{
+		Thread.sleep(10000);
+		System.out.println(10/0);
+		throw new IOException();
+		
+	}
+}
+
